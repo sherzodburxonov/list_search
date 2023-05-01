@@ -8,7 +8,7 @@ def find_max_even(data):
     n=0
     KATTASI=data[0]
     while n<len(data):
-        if data[n]%2==10:
+        if data[n]%2==0:
             if KATTASI<data[n]:
                 KATTASI=data[n]
         n=n+1
